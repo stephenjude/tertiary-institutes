@@ -1,9 +1,9 @@
-# Very short description of the package
+# Tertiary Institutes 
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/stephenjude/tertiary-institutes.svg?style=flat-square)](https://packagist.org/packages/stephenjude/tertiary-institutes)
 [![Total Downloads](https://img.shields.io/packagist/dt/stephenjude/tertiary-institutes.svg?style=flat-square)](https://packagist.org/packages/stephenjude/tertiary-institutes)
 
-A categorized list of all Jamb accredited tertiary institutions.
+A database schema, models and controllers for list of nigerian tertiary institutions.
 
 ## Installation
 
