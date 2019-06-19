@@ -1,11 +1,9 @@
 # Very short description of the package
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/stephenjude/tertiary-institutes.svg?style=flat-square)](https://packagist.org/packages/stephenjude/tertiary-institutes)
-[![Build Status](https://img.shields.io/travis/stephenjude/tertiary-institutes/master.svg?style=flat-square)](https://travis-ci.org/stephenjude/tertiary-institutes)
-[![Quality Score](https://img.shields.io/scrutinizer/g/stephenjude/tertiary-institutes.svg?style=flat-square)](https://scrutinizer-ci.com/g/stephenjude/tertiary-institutes)
 [![Total Downloads](https://img.shields.io/packagist/dt/stephenjude/tertiary-institutes.svg?style=flat-square)](https://packagist.org/packages/stephenjude/tertiary-institutes)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+A categorized list of all Jamb accredited tertiary institutions.
 
 ## Installation
 
@@ -37,7 +35,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email stephenjudesuccess@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email stephen@ahooba.org.ng instead of using the issue tracker.
 
 ## Credits
 
@@ -47,7 +45,3 @@ If you discover any security related issues, please email stephenjudesuccess@gma
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
