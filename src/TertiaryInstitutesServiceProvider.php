@@ -3,6 +3,12 @@
 namespace Stephenjude\TertiaryInstitutes;
 
 use Illuminate\Support\ServiceProvider;
+use Stephenjude\Models\College;
+use Stephenjude\Models\InnovativeInstitute;
+use Stephenjude\Models\Polytechnic;
+use Stephenjude\Models\StateUniversity;
+use Stephenjude\Models\PrivateUniversity;
+use Stephenjude\Models\FederalUniversity;
 
 class TertiaryInstitutesServiceProvider extends ServiceProvider
 {
@@ -12,7 +18,21 @@ class TertiaryInstitutesServiceProvider extends ServiceProvider
     public function boot()
     {
 
-        $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
+        $this->app->make('Http\Controllers\InstitutionController');
+        $this->app->make('Http\Controllers\InstitutionCourseController');
+
+        $this->app->make(InnovativeInstitute::class);
+        $this->app->make(College::class);
+        $this->app->make(Polytechnic::class);
+        $this->app->make(StateUniversity::class);
+        $this->app->make(PrivateUniversity::class);
+        $this->app->make(FederalUniversity::class);
+
+        $this->app->make(College::class);
+
+
+        
+        $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
         $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
 
         if ($this->app->runningInConsole()) {
