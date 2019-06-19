@@ -1,9 +1,9 @@
 <?php
 
-namespace Stephenjude\Http\Controllers\Api;
+namespace Stephenjude\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Stephenjude\Http\Controllers\Controller;
+use App\Http\Controllers\Controller;
 use Stephenjude\Services\CourseService;
 
 class InstitutionCourseController extends Controller

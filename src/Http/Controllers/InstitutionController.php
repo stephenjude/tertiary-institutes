@@ -1,9 +1,9 @@
 <?php
 
-namespace Stephenjude\Http\Controllers\Api;
+namespace Stephenjude\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Stephenjude\Http\Controllers\Controller;
+use App\Http\Controllers\Controller;
 use Stephenjude\Services\InstitutionService;
 
 class InstitutionController extends Controller
@@ -16,27 +16,27 @@ class InstitutionController extends Controller
     }
 
     public function allUniversities()
-    {   
+    {
         return response()->json($this->institutionService->allUniversities());
     }
 
     public function statePrivates()
-    {   
+    {
         return response()->json($this->institutionService->allStatePrivates());
     }
 
     public function polytechnics()
-    {   
+    {
         return response()->json($this->institutionService->allPolytechnics());
     }
 
     public function colleges()
-    {   
+    {
         return response()->json($this->institutionService->allColleges());
     }
 
     public function ieis()
-    {   
+    {
         return response()->json($this->institutionService->allIeis());
     }
 }

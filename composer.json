@@ -25,7 +25,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Stephenjude\\TertiaryInstitutes\\": "src"
+            "Stephenjude\\TertiaryInstitutes\\": "src",            
+            "App\\": "app"
         }
     },
     "autoload-dev": {
