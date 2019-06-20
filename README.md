@@ -14,8 +14,39 @@ composer require stephenjude/tertiary-institutes
 
 ## Usage
 
+
+# Tertiary Institution routes
+
 ``` php
-// Usage description here
+
+route('all.university'); // returns list of all universities
+
+route('all.state.private'); // returns list of all states and private universities
+
+route('all.polytechnic'); // returns list of all polytechnics
+
+route('all.colleges'); // returns list of all college of education
+
+route('all.ieis'); // returns list of all innovative institutes
+
+```
+
+# Institution Courses routes
+
+``` php
+
+route('federal.university.courses', ['institution_id',   $id]); // returns list of all federal university courses
+
+route('state.university.courses', ['institution_id',   $id]); // returns list of all state university courses
+
+route('private.university.courses', ['institution_id',   $id]); // returns list of all private university courses
+
+route('polytechnic.courses', ['institution_id',   $id]); // returns list of all polytechnic courses
+
+route('college.courses', ['institution_id',   $id]); // returns list of all college courses
+
+route('iei.courses', ['institution_id',   $id]); // returns list of all innovative institute courses
+
 ```
 
 ### Testing
