@@ -3,13 +3,6 @@
 namespace Stephenjude\TertiaryInstitutes;
 
 use Illuminate\Support\ServiceProvider;
-use Stephenjude\TertiaryInstitutes\Models\College;
-use Stephenjude\TertiaryInstitutes\Models\InnovativeInstitute;
-use Stephenjude\TertiaryInstitutes\Models\Polytechnic;
-use Stephenjude\TertiaryInstitutes\Models\StateUniversity;
-use Stephenjude\TertiaryInstitutes\Models\PrivateUniversity;
-use Stephenjude\TertiaryInstitutes\Models\FederalUniversity;
-use Stephenjude\TertiaryInstitutes\Http\Controllers\InstitutionController;
 
 class TertiaryInstitutesServiceProvider extends ServiceProvider
 {
@@ -41,17 +34,5 @@ class TertiaryInstitutesServiceProvider extends ServiceProvider
             return new TertiaryInstitutes;
         });
 
-
-        // $this->app->make('Http\Controllers\InstitutionController');
-        // $this->app->make('Http\Controllers\InstitutionCourseController');
-
-        // $this->app->make(InnovativeInstitute::class);
-        // $this->app->make(College::class);
-        // $this->app->make(Polytechnic::class);
-        // $this->app->make(StateUniversity::class);
-        // $this->app->make(PrivateUniversity::class);
-        // $this->app->make(FederalUniversity::class);
-
-        // $this->app->make(College::class);
     }
 }
