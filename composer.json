@@ -1,6 +1,6 @@
 {
     "name": "stephenjude/tertiary-institutes",
-    "description": "A categorized list of all Jamb accredited tertiary institutions.",
+    "description": "A database schema, models and controllers for list of nigerian tertiary institutions.",
     "keywords": [
         "stephenjude",
         "tertiary-institutes"
