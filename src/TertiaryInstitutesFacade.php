@@ -1,11 +1,11 @@
 <?php
 
-namespace Stephenjude\TertiaryInstitutes;
+namespace Stephenjude\TertiaryInstitutes\TertiaryInstitutes;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Stephenjude\TertiaryInstitutes\Skeleton\SkeletonClass
+ * @see \Stephenjude\TertiaryInstitutes\TertiaryInstitutes\Skeleton\SkeletonClass
  */
 class TertiaryInstitutesFacade extends Facade
 {

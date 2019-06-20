@@ -1,6 +1,6 @@
 <?php
 
-namespace Stephenjude\Models;
+namespace Stephenjude\TertiaryInstitutes\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -11,12 +11,12 @@ class InnovativeInstituteCourse extends Model
 
     public function courses()
     {
-        return $this->hasMany('Stephenjude\Models\Course', 'id', 'course_id');
+        return $this->hasMany('Stephenjude\TertiaryInstitutes\Models\Course', 'id', 'course_id');
     }
 
 
     public function iei()
     {
-        return $this->belongsToMany('Stephenjude\Models\InnovativeInstitute', 'id', 'institute_id');
+        return $this->belongsToMany('Stephenjude\TertiaryInstitutes\Models\InnovativeInstitute', 'id', 'institute_id');
     }
 }

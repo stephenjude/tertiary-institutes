@@ -8,6 +8,7 @@
     "homepage": "https://github.com/stephenjude/tertiary-institutes",
     "license": "MIT",
     "type": "library",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Stephen Jude",
@@ -15,18 +16,12 @@
             "role": "Developer"
         }
     ],
-    "require": {
-        "php": "^7.1",
-        "illuminate/support": "5.8.*"
-    },
-    "require-dev": {
-        "orchestra/testbench": "3.8.*",
-        "phpunit/phpunit": "^7.0"
-    },
+    "require": {},
+    "require-dev": {},
     "autoload": {
         "psr-4": {
-            "Stephenjude\\TertiaryInstitutes\\": "src",            
-            "App\\": "app"
+            "Stephenjude\\TertiaryInstitutes\\": "src/",
+            "App\\": "app/"
         }
     },
     "autoload-dev": {
@@ -37,7 +32,6 @@
     "scripts": {
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
     },
     "config": {
         "sort-packages": true

@@ -1,6 +1,6 @@
 <?php
 
-namespace Stephenjude\TertiaryInstitutes\Tests;
+namespace Stephenjude\TertiaryInstitutes\TertiaryInstitutes\Tests;
 
 use PHPUnit\Framework\TestCase;
 

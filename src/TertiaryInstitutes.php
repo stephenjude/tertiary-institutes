@@ -1,9 +1,9 @@
 <?php
 
-namespace Stephenjude\TertiaryInstitutes;
+namespace Stephenjude\TertiaryInstitutes\TertiaryInstitutes;
 
-use Stephenjude\Services\InstitutionService;
-use Stephenjude\Services\CourseService;
+use Stephenjude\TertiaryInstitutes\Services\InstitutionService;
+use Stephenjude\TertiaryInstitutes\Services\CourseService;
 
 class TertiaryInstitutes
 {

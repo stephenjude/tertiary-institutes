@@ -1,10 +1,10 @@
 <?php
 
-namespace Stephenjude\Http\Controllers;
+namespace Stephenjude\TertiaryInstitutes\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Stephenjude\Services\InstitutionService;
+use Stephenjude\TertiaryInstitutes\Services\InstitutionService;
 
 class InstitutionController extends Controller
 {

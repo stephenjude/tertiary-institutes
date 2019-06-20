@@ -1,13 +1,13 @@
 <?php
 
-namespace Stephenjude\Services;
+namespace Stephenjude\TertiaryInstitutes\Services;
 
-use Stephenjude\Models\FederalUniversity;
-use Stephenjude\Models\PrivateUniversity;
-use Stephenjude\Models\StateUniversity;
-use Stephenjude\Models\Polytechnic;
-use Stephenjude\Models\College;
-use Stephenjude\Models\InnovativeInstitute;
+use Stephenjude\TertiaryInstitutes\Models\FederalUniversity;
+use Stephenjude\TertiaryInstitutes\Models\PrivateUniversity;
+use Stephenjude\TertiaryInstitutes\Models\StateUniversity;
+use Stephenjude\TertiaryInstitutes\Models\Polytechnic;
+use Stephenjude\TertiaryInstitutes\Models\College;
+use Stephenjude\TertiaryInstitutes\Models\InnovativeInstitute;
 
 class CourseService
 {

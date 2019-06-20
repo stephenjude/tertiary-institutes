@@ -1,6 +1,6 @@
 <?php
 
-namespace Stephenjude\Models;
+namespace Stephenjude\TertiaryInstitutes\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -14,8 +14,8 @@ class InnovativeInstitute extends Model
     {
 
         return $this->hasManyThrough(
-            'Stephenjude\Models\Course',
-            'Stephenjude\Models\InnovativeInstituteCourse',
+            'Stephenjude\TertiaryInstitutes\Models\Course',
+            'Stephenjude\TertiaryInstitutes\Models\InnovativeInstituteCourse',
             'institute_id',
             'id',
             'id',
