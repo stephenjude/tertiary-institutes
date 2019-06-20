@@ -15,10 +15,9 @@ composer require stephenjude/tertiary-institutes
 ## Usage
 
 
-# Tertiary Institution routes
+### Tertiary Institution routes
 
 ``` php
-
 route('all.university'); // returns list of all universities
 
 route('all.state.private'); // returns list of all states and private universities
@@ -31,10 +30,9 @@ route('all.ieis'); // returns list of all innovative institutes
 
 ```
 
-# Institution Courses routes
+### Institution Courses routes
 
 ``` php
-
 route('federal.university.courses', ['institution_id',   $id]); // returns list of all federal university courses
 
 route('state.university.courses', ['institution_id',   $id]); // returns list of all state university courses
