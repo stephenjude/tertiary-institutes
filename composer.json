@@ -16,8 +16,12 @@
             "role": "Developer"
         }
     ],
-    "require": {},
-    "require-dev": {},
+    "require": {
+        "php": "^7.1.3"
+        },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
     "autoload": {
         "psr-4": {
             "Stephenjude\\TertiaryInstitutes\\": "src/",
