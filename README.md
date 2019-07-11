@@ -1,5 +1,6 @@
 # Tertiary Institutes 
 
+[![Quality Score](https://img.shields.io/scrutinizer/g/stephenjude/paystack-lite.svg?style=flat-square)](https://travis-ci.com/stephenjude/tertiary-institutes.svg?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/stephenjude/tertiary-institutes.svg?style=flat-square)](https://packagist.org/packages/stephenjude/tertiary-institutes)
 
 A database schema, models and controllers for list of nigerian tertiary institutions.
