@@ -12,7 +12,6 @@ class InnovativeInstitute extends Model
 
     public function courses()
     {
-
         return $this->hasManyThrough(
             'Stephenjude\TertiaryInstitutes\Models\Course',
             'Stephenjude\TertiaryInstitutes\Models\InnovativeInstituteCourse',
@@ -21,6 +20,5 @@ class InnovativeInstitute extends Model
             'id',
             'course_id'
         );
-        
     }
 }

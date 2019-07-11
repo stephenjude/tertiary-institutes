@@ -20,7 +20,5 @@ class Polytechnic extends Model
             'id',
             'course_id'
         )->orderBy('course', 'asc');
-
     }
-
 }
