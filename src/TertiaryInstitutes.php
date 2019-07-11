@@ -2,8 +2,8 @@
 
 namespace Stephenjude\TertiaryInstitutes\TertiaryInstitutes;
 
-use Stephenjude\TertiaryInstitutes\Services\InstitutionService;
 use Stephenjude\TertiaryInstitutes\Services\CourseService;
+use Stephenjude\TertiaryInstitutes\Services\InstitutionService;
 
 class TertiaryInstitutes
 {
@@ -21,7 +21,6 @@ class TertiaryInstitutes
     {
         return $this->courseService;
     }
-
 
     public function instituteService()
     {

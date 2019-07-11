@@ -6,14 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class InnovativeInstituteCourse extends Model
 {
-    protected $fillable = ['institute_id', 'course_id',];
-
+    protected $fillable = ['institute_id', 'course_id'];
 
     public function courses()
     {
         return $this->hasMany('Stephenjude\TertiaryInstitutes\Models\Course', 'id', 'course_id');
     }
-
 
     public function iei()
     {

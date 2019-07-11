@@ -2,7 +2,6 @@
 
 namespace Stephenjude\TertiaryInstitutes\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Stephenjude\TertiaryInstitutes\Services\CourseService;
 
@@ -44,5 +43,4 @@ class InstitutionCourseController extends Controller
     {
         return $this->courseService->ieiCourses($institution_id);
     }
-
 }
