@@ -14,6 +14,10 @@ You can install the package via composer:
 composer require stephenjude/tertiary-institutes
 ```
 
+publish the migration files
+``` php
+    php artisan vendor:publish --tag=config
+```
 ## Usage
 
 
