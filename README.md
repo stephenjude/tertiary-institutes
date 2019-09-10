@@ -16,7 +16,7 @@ composer require stephenjude/tertiary-institutes
 
 publish the migration files
 ``` php
-    php artisan vendor:publish --tag=config
+    php artisan vendor:publish --tag=migrations
 ```
 ## Usage
 
