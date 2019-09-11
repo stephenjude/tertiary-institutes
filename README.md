@@ -24,32 +24,43 @@ publish the migration files
 ### Tertiary Institution routes
 
 ``` php
-route('all.university'); // returns list of all universities
+// returns list of all universities
+route('all.university');  /* institution/degrees/all */
 
-route('all.state.private'); // returns list of all states and private universities
+// returns list of all states and private universities
+route('all.state.private'); /* institution/degrees/stateprivate */
 
-route('all.polytechnic'); // returns list of all polytechnics
+// returns list of all polytechnics
+route('all.polytechnic'); /* institution/polytechnics */
 
-route('all.colleges'); // returns list of all college of education
+// returns list of all college of education
+route('all.colleges'); /* institution/colleges */
 
-route('all.ieis'); // returns list of all innovative institutes
+// returns list of all innovative institutes
+route('all.ieis'); /* institution/ieis */
 
 ```
 
 ### Institution Courses routes
 
 ``` php
-route('federal.university.courses', ['institution_id',   $id]); // returns list of all federal university courses
+// returns list of all federal university courses
+route('federal.university.courses', ['institution_id',   $id]); /* courses/{institution_id}/federal */ 
 
-route('state.university.courses', ['institution_id',   $id]); // returns list of all state university courses
+// returns list of all state university courses
+route('state.university.courses', ['institution_id',   $id]);  /* courses/{institution_id}/state */ 
 
-route('private.university.courses', ['institution_id',   $id]); // returns list of all private university courses
+// returns list of all private university courses
+route('private.university.courses', ['institution_id',   $id]);  /* courses/{institution_id}/private */ 
 
-route('polytechnic.courses', ['institution_id',   $id]); // returns list of all polytechnic courses
+// returns list of all polytechnic courses
+route('polytechnic.courses', ['institution_id',   $id]);  /* courses/{institution_id}/polytechnic */ 
 
-route('college.courses', ['institution_id',   $id]); // returns list of all college courses
+// returns list of all college courses
+route('college.courses', ['institution_id',   $id]);  /* courses/{institution_id}/college */ 
 
-route('iei.courses', ['institution_id',   $id]); // returns list of all innovative institute courses
+// returns list of all innovative institute courses
+route('iei.courses', ['institution_id',   $id]);  /* courses/{institution_id}/iei */ 
 
 ```
 
