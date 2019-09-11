@@ -45,22 +45,22 @@ route('all.ieis'); /* institution/ieis */
 
 ``` php
 // returns list of all federal university courses
-route('federal.university.courses', ['institution_id',   $id]); /* courses/{institution_id}/federal */ 
+route('federal.university.courses', ['institution_id' => $id]); /* courses/{institution_id}/federal */ 
 
 // returns list of all state university courses
-route('state.university.courses', ['institution_id',   $id]);  /* courses/{institution_id}/state */ 
+route('state.university.courses', ['institution_id' => $id]);  /* courses/{institution_id}/state */ 
 
 // returns list of all private university courses
-route('private.university.courses', ['institution_id',   $id]);  /* courses/{institution_id}/private */ 
+route('private.university.courses', ['institution_id' => $id]);  /* courses/{institution_id}/private */ 
 
 // returns list of all polytechnic courses
-route('polytechnic.courses', ['institution_id',   $id]);  /* courses/{institution_id}/polytechnic */ 
+route('polytechnic.courses', ['institution_id' => $id]);  /* courses/{institution_id}/polytechnic */ 
 
 // returns list of all college courses
-route('college.courses', ['institution_id',   $id]);  /* courses/{institution_id}/college */ 
+route('college.courses', ['institution_id' => $id]);  /* courses/{institution_id}/college */ 
 
 // returns list of all innovative institute courses
-route('iei.courses', ['institution_id',   $id]);  /* courses/{institution_id}/iei */ 
+route('iei.courses', ['institution_id' => $id]);  /* courses/{institution_id}/iei */ 
 
 ```
 
