@@ -10,6 +10,13 @@ class StateUniversity extends Model
 
     protected $with = ['courses'];
 
+    public function __construct(array $attributes = [])
+    {
+        $this->setConnection(config('tertiary-institutes.database_connection'));
+
+        parent::__construct($attributes);
+    }
+    
     public function courses()
     {
         return $this->hasManyThrough(

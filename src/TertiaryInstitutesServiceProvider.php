@@ -16,7 +16,7 @@ class TertiaryInstitutesServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__ . '/../config/config.php' => config_path('tertiary-institutes.php'),
+                __DIR__ . '/../config/tertiary-institutes.php' => config_path('tertiary-institutes.php'),
             ], 'config');
 
             $this->publishes([
@@ -31,7 +31,7 @@ class TertiaryInstitutesServiceProvider extends ServiceProvider
     public function register()
     {
         // Automatically apply the package configuration
-        $this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'tertiary-institutes');
+        $this->mergeConfigFrom(__DIR__ . '/../config/tertiary-institutes.php', 'tertiary-institutes');
 
 
         // Register the main class to use with the facade
