@@ -1,6 +1,6 @@
 <?php
 
-namespace Stephenjude\TertiaryInstitutes\TertiaryInstitutes;
+namespace Stephenjude\TertiaryInstitutes;
 
 use Stephenjude\TertiaryInstitutes\Services\CourseService;
 use Stephenjude\TertiaryInstitutes\Services\InstitutionService;

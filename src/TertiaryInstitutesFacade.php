@@ -1,6 +1,6 @@
 <?php
 
-namespace Stephenjude\TertiaryInstitutes\TertiaryInstitutes;
+namespace Stephenjude\TertiaryInstitutes;
 
 use Illuminate\Support\Facades\Facade;
 
