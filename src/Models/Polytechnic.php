@@ -16,7 +16,7 @@ class Polytechnic extends Model
 
         parent::__construct($attributes);
     }
-    
+
     public function courses()
     {
         return $this->hasManyThrough(

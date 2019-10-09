@@ -14,7 +14,7 @@ class InnovativeInstituteCourse extends Model
 
         parent::__construct($attributes);
     }
-    
+
     public function courses()
     {
         return $this->hasMany('Stephenjude\TertiaryInstitutes\Models\Course', 'id', 'course_id');
